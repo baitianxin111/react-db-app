@@ -1,0 +1,19 @@
+{
+  "name": "react-db-app",
+  "version": "1.0.0",
+  "description": "this is a easy report app\u001b[D\u001b[D\u001b[D react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baitianxin111/react-db-app.git"
+  },
+  "author": "baitianxin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baitianxin111/react-db-app/issues"
+  },
+  "homepage": "https://github.com/baitianxin111/react-db-app#readme"
+}
