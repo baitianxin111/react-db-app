@@ -4,16 +4,16 @@
 
 ## Features
 
-- React+es6
+- React+es6 🚀
 - CSS Modules 🚀
-- Webpack 3.x
+- Webpack 3.x 🚀
 
 ## Build the app
 
-npm install
-npm run dev
-npm run build
+- npm install
+- npm run dev
+- npm run build
 
 ## License
 
-MIT
+- MIT
