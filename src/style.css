@@ -9,7 +9,7 @@ body {
 #root, .app {
 	height: 100%;
 	overflow: hidden;
-	background:  #98BD78;
+	background:  #A5B1B1;
 }
 
 h1 {
@@ -38,6 +38,10 @@ h1 {
 	flex-grow: 1;
 	padding-top: 35px;	
 	text-align: center;
+	cursor: pointer;
+}
+.nav-bar > .nav-item :hover{
+	background-color: #1296db;
 }
 
 .nav-bar > .nav-item[data-active='true'] {
@@ -208,7 +212,7 @@ h1 {
 .detail-container .detail-title {
 	padding: 15px 10px;
 	text-align: center;
-	background-color: #98BD78;
+	background-color: #A5B1B1;
 	color: #fff;
 }
 
