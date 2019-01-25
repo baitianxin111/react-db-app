@@ -2,24 +2,25 @@ import React, { Component } from 'react';
 import '../../style.css';
 
 class NavBar extends Component {
-
-	togglePage(e) {
-		console.log(e)
-		var page = event.currentTarget.getAttribute('data-page');  
-		let target = e.target || e.srcElement || e.currentTarget;
-		if (!target.dateSet.page) return;
-		console.log(target.dateSet)
-		this.props.changePage(target.dateSet.page || page);//承接父组件传过来的函数
-	}
-
 	constructor(props) {//构造函数
 	    super(props);
 	    this.togglePage = this.togglePage.bind(this);
 	}
+    //自己写的数据
+	togglePage(e) {
+		// console.log(e.target)		
+		let target = e.target || e.srcElement;
+		var page = event.target.getAttribute('data-page'); 
+		if (!page) return;
+		console.log('page',page) 
+		// console.log(target.dateSet)
+		this.props.changePage(page);//承接父组件传过来的函数
+	}
+
+	
     
     render() {
 		const page = this.props.page;
-		// console.log(data-page)
         return (
 	        <div className="nav-bar" onClick={this.togglePage}>
                 <div className="nav-item"  data-page="book" data-active={page=='book'}>

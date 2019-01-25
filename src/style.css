@@ -46,11 +46,13 @@ h1 {
 
 .nav-bar > .nav-item[data-active='true'] {
 	color: #1296db;	
+	
 }
 
 .nav-bar > .nav-item:nth-child(1) {
 	background: url('images/book.png') center 6px no-repeat;
 	background-size: 28px;
+	
 }
 
 .nav-bar > .nav-item:nth-child(2) {
@@ -63,21 +65,13 @@ h1 {
 	background-size: 28px;
 }
 
-.nav-bar > .nav-item:nth-child(1)[data-active='true'] {
+ .nav-bar > .nav-item:nth-child(1)[data-active='true'],
+ .nav-bar > .nav-item:nth-child(2)[data-active='true'],
+ .nav-bar > .nav-item:nth-child(3)[data-active='true'] {
 	background: url('images/book-active.png') center 6px no-repeat;
 	background-size: 28px;
+	background-color: #12db5f;
 }
-
-.nav-bar > .nav-item:nth-child(2)[data-active='true'] {
-	background: url('images/film-active.png') center 6px no-repeat;
-	background-size: 28px;
-}
-
-.nav-bar > .nav-item:nth-child(3)[data-active='true'] {
-	background: url('images/media-active.png') center 6px no-repeat;
-	background-size: 28px;
-}
-
 .search-bar {
 	position: relative;
 	width: calc(100% - 20px);
