@@ -19,5 +19,6 @@
 - MIT
 
 ## 演示地址
+- https://baitianxin111.github.io/react-db-app/dist/index.html
 
-欢迎star
+- 欢迎star
