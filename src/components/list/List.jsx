@@ -113,14 +113,15 @@ class List extends Component {
 
         const hasMore = this.state.hasMore; //拿到数据啊 
         const List = (function(page){//立即执行函数,拿到数据显示
+        // const pointColor = 'pointer';
             console.log(page)
             switch (page) {
                 case 'book':
-                    return <BookList seeDetail={seeDetail} listItems={listItems}/>;
+                    return <BookList  seeDetail={seeDetail} listItems={listItems}/>;
                 case 'film':
                     return <FilmList seeDetail={seeDetail} listItems={listItems}/>;
                 case 'music':
-                    return <MusicList seeDetail={seeDetail} listItems={listItems}/>;
+                    return <MusicList  seeDetail={seeDetail} listItems={listItems}/>;
             }
         })(page)
         return (
